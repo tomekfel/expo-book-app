@@ -1,0 +1,94 @@
+{
+  "_from": "react-navigation-shared-element@3.0.0",
+  "_id": "react-navigation-shared-element@3.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-nSmbgf4+hKSZU1Rzi5Bm1Is5mt0Z+xY5sXeTx4t5KMnmNW4lz5M83p9oTW6mKDoXUeCocUfeVwbCmsAjlyTLQw==",
+  "_location": "/react-navigation-shared-element",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-navigation-shared-element@3.0.0",
+    "name": "react-navigation-shared-element",
+    "escapedName": "react-navigation-shared-element",
+    "rawSpec": "3.0.0",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-navigation-shared-element/-/react-navigation-shared-element-3.0.0.tgz",
+  "_shasum": "3dfa6a71f138e4ceb457a91aea3ef2a8ab2a6a32",
+  "_spec": "react-navigation-shared-element@3.0.0",
+  "_where": "C:\\Users\\p10474302\\book-app-main",
+  "author": {
+    "name": "IjzerenHein",
+    "email": "hrutjes@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/IjzerenHein/react-navigation-shared-element/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.2"
+  },
+  "deprecated": false,
+  "description": "react-native-shared-element bindings for React Navigation",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
+    "@react-navigation/bottom-tabs": "^5.3.3",
+    "@react-navigation/material-top-tabs": "^5.1.14",
+    "@react-navigation/native": "^5.4.3",
+    "@react-navigation/stack": "^5.4.0",
+    "@types/react": "^16.9.23",
+    "@types/react-native": "^0.61.17",
+    "commitlint": "^8.3.5",
+    "conventional-changelog-cli": "^2.0.31",
+    "eslint": "^7.1.0",
+    "expo-module-scripts": "^1.2.0",
+    "prettier": "^2.0.5",
+    "react-native-shared-element": "^0.7.0",
+    "react-navigation": "^4.3.7",
+    "react-navigation-stack": "^2.3.11"
+  },
+  "files": [
+    "src/",
+    "build/"
+  ],
+  "homepage": "https://github.com/IjzerenHein/react-navigation-shared-element#readme",
+  "keywords": [
+    "react-navigation-shared-element",
+    "navigation-shared-element",
+    "navigation",
+    "shared-element"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "react-navigation-shared-element",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-shared-element": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IjzerenHein/react-navigation-shared-element.git"
+  },
+  "scripts": {
+    "build": "expo-module build",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "clean": "expo-module clean",
+    "expo-module": "expo-module",
+    "lint": "expo-module lint",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "test": "expo-module test"
+  },
+  "sideEffects": false,
+  "types": "build/index.d.ts",
+  "version": "3.0.0"
+}
